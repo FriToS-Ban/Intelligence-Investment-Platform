@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Streamlit config and secrets
+.streamlit/
+
+# Large datasets & models (keep metadata structure, ignore actual data)
+data/raw/
+data/processed/
+data/models/
+
+# Exceptions to allow trackable config/placeholders
+!data/
+!data/raw/
+!data/processed/
+!data/models/
+data/raw/*
+data/processed/*
+data/models/*
+!data/processed/metrics.csv
+!data/processed/predictions.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
